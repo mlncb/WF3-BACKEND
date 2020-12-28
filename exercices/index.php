@@ -17,21 +17,17 @@
     $textDuParagraphe = "Hello World!";
     $entier = 7;
     $decimal = 10.5; 
-    $x = "12.5io1"; // reconnaît les premiers caractères comme étant un type décimal
+    $x = "3"; 
     $y = 4;
     $z = 5;
 
-    define("VITESSE_MAX",300000);
-    define("AGE_LIMITE", 14);
+    
 
     // echo $textDuParagraphe;
     // echo $entier;
     // echo $decimal;
 
-    // echo $VITESSE_MAX; est une erreur car ce n'est PAS une VARIABLE mais une CONSTANTE
-    echo VITESSE_MAX
-    echo " ";
-    echo constant("VITESSE_MAX");
+
 
     echo $z;
 ?>
