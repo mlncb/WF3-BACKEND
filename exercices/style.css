@@ -1,0 +1,9 @@
+li {
+    font-weight: bold;
+}
+
+.attention::before {
+    content: "⚠ Attention ! : ";
+    font-size: 1.2em;
+    color: red;
+}
