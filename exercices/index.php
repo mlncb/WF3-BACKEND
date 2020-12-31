@@ -349,6 +349,15 @@ for ($i =2; $i <= $o; $i++) {
 }
 
 echo "</p>";
-?>      
+?>
+
+<?php
+$tab=["nom"=>["Zakaria","Fatima","Rida"],"age"=>["27","37","43"]];
+
+echo $tab["nom"][1];
+echo $tab["age"][1];
+
+?>
+
 </body>
 </html>
