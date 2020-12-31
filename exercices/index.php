@@ -305,8 +305,11 @@
     }
         echo "<li>$x</li>" ; "<li>$y</li>";
     echo "</ul>";
+    ?>
 
-    <h3>Attribuer une variante avec la condition : "do" "while"</h3>
+<h3>Attribuer une variante avec la condition : "do" "while"</h3>
+
+<?php
 
     $x = 1;
     echo "<ul>";
@@ -316,9 +319,7 @@
     while ($x < $y);
     echo "<li>$x</li>" ; "<li>$y</li>";
     echo "<ul>";
-?>
-
- 
+?> 
     
 <h3>Ecrire une boucle qui affiche les multiples du nombre 7 inférieurs à 1000</h3>
 
@@ -326,7 +327,7 @@
     echo "<ul>";
        for ($i =0; $i <= 1000; $i++){
             if ($i % 7 == 0) {
-            echo"<li>".$ji."</li>";
+            echo"<li>".$i."</li>";
             }
         }
 ?>
@@ -334,15 +335,16 @@
 <h3>Utiliser la boucle for pour tester si le nombre 3457 est premier</h3>
 
 <?php
-    echo "<p>";
-
-    for ($i = 2; $i < 3457; $i++){
-        if(3457 % $i == 0){
-            echo "3457 est un nombre premier";}
-        
+echo "<p>"
+for ($i =2; $i < 3457; $i++) {
+    if(3457 % $i == 0){
+    echo "3457 n'est un nombre premier";
+    }} 
+    else {
+    echo "3457 est un nombre premier"; 
+    }
     echo "</p>";
-       
-
+    
 ?>
 </body>
 </html>
