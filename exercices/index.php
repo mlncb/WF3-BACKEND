@@ -335,16 +335,15 @@
 <h3>Utiliser la boucle for pour tester si le nombre 3457 est premier</h3>
 
 <?php
-echo "<p>"
-for ($i =2; $i < 3457; $i++) {
+    echo "<p>";
+    for ($i =2; $i < 3457; $i++) {
     if(3457 % $i == 0){
-    echo "3457 n'est un nombre premier";
-    }} 
-    else {
+    echo "3457 n'est un nombre premier";}} 
+    {
     echo "3457 est un nombre premier"; 
     }
     echo "</p>";
     
-?>
+?>      
 </body>
 </html>
