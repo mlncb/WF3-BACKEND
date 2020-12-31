@@ -288,14 +288,16 @@
 
 <h2> Réponses au TP&nbsp;:</h2>
 
+<h3>Déclarer deux variables</h3>
+
 <?php
-
-    // Déclarer deux variables
-
     $x = 1;
     $y = 835;
+?>
 
-    <h3>Utilisation de conditions : boucle "while" et incrémentation</h3>
+<h3>Utilisation de conditions : boucle "while" et incrémentation</h3>
+
+<?php
 
     echo "<ul>";
     while($x < $y){
@@ -316,23 +318,20 @@
     echo "<ul>";
 ?>
 
-<?php 
+ 
     
-    <h3>Ecrire une boucle qui affiche les multiples du nombre 7 inférieurs à 1000</h3>
-    $x = 14;
-    $y = 7;
-?>
-    <?php
-       echo "<ul>";
+<h3>Ecrire une boucle qui affiche les multiples du nombre 7 inférieurs à 1000</h3>
+
+<?php
+    echo "<ul>";
        for ($i =0; $i <= 1000; $i++){
             if ($i % 7 == 0) {
             echo"<li>".$ji."</li>";
             }
         }
-    ?>
-</ul>
+?>
 
-    <h3>Utiliser la boucle for pour tester si le nombre 3457 est premier</h3>
+<h3>Utiliser la boucle for pour tester si le nombre 3457 est premier</h3>
 
 <?php
     echo "<p>";
