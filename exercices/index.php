@@ -295,7 +295,7 @@
     $x = 1;
     $y = 835;
 
-    // Utilisation de conditions : boucle "while" et incrémentation 
+    <h3>Utilisation de conditions : boucle "while" et incrémentation</h3>
 
     echo "<ul>";
     while($x < $y){
@@ -304,7 +304,7 @@
         echo "<li>$x</li>" ; "<li>$y</li>";
     echo "</ul>";
 
-    // Attribuer une variante avec la condition : "do" "while"
+    <h3>Attribuer une variante avec la condition : "do" "while"</h3>
 
     $x = 1;
     echo "<ul>";
@@ -316,69 +316,33 @@
     echo "<ul>";
 ?>
 
-
 <?php 
-  
-  // Ecrire une boucle qui affiche les multiples du nombre 7 inférieurs à 1000
+    
+    <h3>Ecrire une boucle qui affiche les multiples du nombre 7 inférieurs à 1000</h3>
     $x = 14;
     $y = 7;
 ?>
-
-<ul>
-    <li><?php echo ($x + $y); // Affiche 26 ?></li>
-    <li><?php echo ($x - $y); // Affiche 14 ?></li>
-    <li><?php echo ($x * $y); // Affiche 120 ?></li>
-    <li><?php echo ($x / $y); // Affiche 3.3333333... ?></li>
-    <li><?php echo ($x % $y); // Affiche 2 ?></li>
-
     <?php
-        $y = 20;
-        $y += 100; // similaire à "$y = $y + 100;"
-        echo "<li>".$y."</li>"; // Affiche 120
-
-        $z = 50;
-        $z -= 25;
-        echo "<li>".$z."</li>"; // Affiche 25
-
-        $i = 5;
-        $i *= 6; // similaire à "$i = $i * 6"
-        echo "<li>".$i."</li>"; // Affiche 30
-
-        $j = 10;
-        $j /= 5;
-        echo "<li>".$j."</li>"; // Affiche 2
-
-        $k = 20;
-        $k %= 7;
-        echo "<li>".$k."</li>"; // Affiche 6
-
-        $a = 0;
-        $b = 1000;
-       
-        echo "<li>";
-            var_dump($a < $b); // "strictement inférieur à"
-        echo "</li>";
-
-    
+       echo "<ul>";
+       for ($i =0; $i <= 1000; $i++){
+            if ($i % 7 == 0) {
+            echo"<li>".$ji."</li>";
+            }
+        }
     ?>
 </ul>
 
+    <h3>Utiliser la boucle for pour tester si le nombre 3457 est premier</h3>
+
 <?php
-    // Utiliser la boucle for pour tester si le nombre 3457 est premier
+    echo "<p>";
 
-    $number = 3457; 
-    $i = 1; 
-
-    for ($i = 1; $i <== $number; $i++){
-        $calcul_a = $number % $i;
-        if($calculj_a = 0){
-            echo "$nombre n'est pas premier";
-        else {
-            echo "$nombre est premier";
-        }
-        }
-      
+    for ($i = 2; $i < 3457; $i++){
+        if(3457 % $i == 0){
+            echo "3457 est un nombre premier";}
         
+    echo "</p>";
+       
 
 ?>
 </body>
